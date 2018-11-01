@@ -3,7 +3,7 @@
 -export([get/1]).
 
 -define (DefaultColor, "purple").
--define (Approved, ["purple", "green", "blue", "yellow", "grey", "red"]).
+-define (Approved, ["purple", "green", "orange", "blue", "yellow", "grey", "red"]).
 
 get(Color) ->
   X = string:lowercase(Color),
